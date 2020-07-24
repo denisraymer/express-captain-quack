@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const MuggerSchema = new Schema({
-    name: String,
+    title: String,
+    description: String,
     year: Number,
     color: String,
     status: String,
