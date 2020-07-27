@@ -13,7 +13,7 @@ mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true})
 app.use(bodyParser.json());
 app.use('/api', require('./api'));
 
-app.get('/', (request, response) => {
+app.use('/', (request, response) => {
     response.end('<h1>Hello world</h1>')
 });
 
