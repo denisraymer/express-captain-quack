@@ -2,9 +2,9 @@
   "name": "express-captain-quack",
   "version": "1.0.0",
   "description": "",
-  "main": "start.js",
+  "main": "index.js",
   "scripts": {
-    "server": "npm start.js"
+    "server": "node index.js"
   },
   "keywords": [],
   "author": "",
