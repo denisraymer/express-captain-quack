@@ -4,7 +4,7 @@ const Mugger = require('./mugger');
 const cors = require('cors');
 
 const corsOptions = {
-    origin: 'https://denisraimer.github.io/captain-quack/',
+    origin: 'https://denisraimer.github.io',
     optionsSuccessStatus: 200
 }
 
